@@ -1,0 +1,26 @@
+<app-header titulo="Grid"></app-header>
+
+<ion-content class="ion-padding" fullscreen>
+    <ion-grid fixed>
+        <ion-row>
+            <!-- <ion-col *ngFor="let c of [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];let i=index">
+                {{i+1}}
+            </ion-col> -->
+
+            <ion-col size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12" *ngFor="let c of [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];">
+                <ion-card>
+                    <ion-img src="assets/shapes.svg"></ion-img>
+                    <ion-card-header>
+                        <ion-card-subtitle>Card subtitle</ion-card-subtitle>
+                        <ion-card-title>Card title</ion-card-title>
+                    </ion-card-header>
+                    <ion-card-content>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus natus, commodi, suscipit rerum, illum ullam labore dolores dicta at doloribus nulla expedita architecto animi omnis quod adipisci! Illo, voluptas libero?
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+
+        </ion-row>
+    </ion-grid>
+
+</ion-content>
